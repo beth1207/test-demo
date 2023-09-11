@@ -1,0 +1,8 @@
+"code-runner.executorMap": {
+    "html": "cd $dir && start chrome $fileName",
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    // ... (rest of the entries)
+    "sml": "cd $dir && sml $fileName"
+}
